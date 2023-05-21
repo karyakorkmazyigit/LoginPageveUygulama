@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CosmeticsFrag2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bill"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="547dp"
+            android:gravity="center"
+            android:text="fiyat"
+            android:textColor="@color/purple_200"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/rankings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="482dp"
+            android:text="rank"
+            android:textColor="#D3D3D3"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#5C5CFF"
+            android:textSize="30sp"
+            android:text="product" />
+        <ImageView
+            android:id="@+id/resim"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="80dp"
+            android:scaleType="fitXY"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</FrameLayout>

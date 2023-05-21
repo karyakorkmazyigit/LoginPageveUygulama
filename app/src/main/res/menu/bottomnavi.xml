@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Person"
+        android:id="@+id/person"
+        android:icon="@drawable/girl"/>
+    <item android:title="Cosmetics"
+        android:id="@+id/cosmetics"
+        android:icon="@drawable/cosmetics"/>
+    <item android:title="Skin Care Supplies"
+        android:id="@+id/skincaresupplies"
+        android:icon="@drawable/skincare"/>
+    <item android:title="Hair Care Supplies"
+        android:id="@+id/haircaresupplies"
+        android:icon="@drawable/hair"/>
+
+</menu>
